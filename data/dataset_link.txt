@@ -1,0 +1,2 @@
+Dataset Link:
+https://github.com/zalandoresearch/fashion-mnist/tree/master/data/fashion
