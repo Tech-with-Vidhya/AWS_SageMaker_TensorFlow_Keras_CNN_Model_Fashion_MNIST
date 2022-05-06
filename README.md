@@ -1,2 +1,1 @@
-# SageMaker-P2
-SageMaker-P2
+# AWS_SageMaker_TensorFlow_Keras_CNN_Model_Fashion_MNIST
