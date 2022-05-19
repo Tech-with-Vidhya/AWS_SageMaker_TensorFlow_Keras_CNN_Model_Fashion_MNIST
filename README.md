@@ -10,8 +10,8 @@ The objective of the Deep Learning model is to predict and classify the fashion 
 
 <h3><b><u>Dataset:</u></b></h3>
 
-Link to the Kaggle Dataset:
-<h3><a href="https://www.kaggle.com/datasets/zalando-research/fashionmnist" style="color: blue"><b><u>Fashion MNIST Dataset</u></b></a></h3>
+Link to the Kaggle Dataset as below:
+<h4><a href="https://www.kaggle.com/datasets/zalando-research/fashionmnist" style="color: blue"><b><u>Fashion MNIST Dataset</u></b></a></h4>
 
 Dataset Context, Content and Labels Information as per Kaggle as below:
 
