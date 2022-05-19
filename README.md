@@ -2,11 +2,11 @@
 
 <h3><b><u>Introduction:</u></b></h3>
 
-This project covers the end to end implementation of a Convolutional Neural Network (CNN) Multi-Class Classifier Deep Learning Model for the Fashion MNIST Dataset using TensorFlow Keras Library in AWS SageMager.
+This project covers the end to end implementation of a Convolutional Neural Network (CNN) Multi-Class Classifier Deep Learning Model for the Fashion MNIST Dataset using TensorFlow Keras and Apache MXNet on the GPU Instance using AWS SageMager.
 
 AWS SageMaker is a fully-managed cloud based service offered by AWS to build, design and deploy E2E machine learning models.
 
-The objective of the Deep Learning model is to predict and classify the fashion images in to various classes/categories using the deep learning technique.
+The objective of the Deep Learning model is to predict and classify the fashion images in to various classes/categories using the deep learning techniques of TensorFlow Keras and Apache MXNet.
 
 <h3><b><u>Dataset:</u></b></h3>
 
@@ -38,18 +38,20 @@ Each training and test example is assigned to one of the following labels:
 
 <h3><b><u>Project Implementation Steps using AWS SageMaker:</u></b></h3>
 
-1. Data Collection
-2. Data Exploration and Analysis
-3. Data Pre-processing, Scaling and Normalisation
-4. Model Training
-5. Model Evaluation and Validation
-6. Model Performance Metrics Measures
-7. Deploying the Finalized Model into AWS
-8. Generating the Inference Endpoint for the Finalized Model
-9. Verifying the EndPoint with Unseen Test Data
+1. Data Ingestion into AWS S3 Bucket
+2. Data Collection and Data Retrieval from AWS S3 Bucket into AWS SageMaker
+3. Data Exploration and Analysis
+4. Data Pre-processing, Scaling and Normalisation
+5. Model Training
+6. Model Evaluation and Validation
+7. Configured Automatic Model Tuning
+8. Model Performance Metrics Measures
+9. Deploying the Finalized Best Model into AWS
+10. Generating the Inference Endpoint for the Finalized Model
+11. Verifying the EndPoint with Unseen Test Data
 
 <h3><b><u>Tools & Technologies:</u></b></h3>
 
-Python, CNN, TensorFlow, Keras, AWS IAM, AWS SageMaker
+Python, CNN, TensorFlow, Keras, Apache MXNet, AWS IAM, AWS S3, AWS SageMaker
 
 
